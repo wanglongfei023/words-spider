@@ -1,0 +1,442 @@
+HTTP/1.1 200 OK
+Date: Thu, 18 Jul 2019 05:54:59 GMT
+Server: Apache
+Vary: User-Agent,Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+4af3
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>英语单词大全 - 英语词库 - 优词词典</title>
+
+    <meta name="keywords" content="英语单词大全,英语词库,英语单词,英文单词,英语四级词汇,英语六级词汇,英语单词表">
+    <meta name="description" content="优词词典为你提供最全的英语单词大全,英语词库,英语四级词汇、英语六级词汇、雅思词汇、托福词汇、考研英语词汇、GRE词汇等各类英语单词、英语词汇大全。">
+
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/youdict.css?20150817">
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        .yd-item {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+            color: #909090;
+            font-size: 14px;
+            font-family: "Microsoft YaHei",sans-serif;
+        }
+        .yd-item a { text-decoration: none; color: #555; line-height: 26px; padding: 5px 10px; }
+        .yd-item .ciku-current { background-color: #06A7E1; color: #FFF; }
+    </style>
+</head>
+
+<body id="youdict">
+
+<nav class="navbar navbar-inverse" id="yd-navbar">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#yd-header-nav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand visible-xs-inline" href="/">YouDict 优词</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="yd-header-nav">
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="/" target="_blank">优词词典</a></li>
+            <li><a href="/etym" target="_blank">英语词源</a></li>
+            <li><a href="/ciyuan" target="_blank">词源字典</a></li>
+            <li><a href="/root" target="_blank">词根词缀</a></li>
+            <li><a href="http://movie.douban.com/tv/?from=gaia#!type=tv&tag=美剧&sort=recommend" target="_blank">美剧</a></li>
+            <li><a href="/novel" target="_blank">英文小说</a></li>
+            <li><a href="http://www.chinadaily.com.cn/" target="_blank">国内新闻</a></li>
+            <li><a href="http://www.cnn.com/" target="_blank">国际新闻</a></li>
+            <li><a href="/kankan" target="_blank">单词连连看</a></li>
+            <li><a href="/test" target="_blank">词汇量测试</a></li>
+            <li><a href="/study/course.html" target="_blank">看图背单词</a></li>
+            <li><a href="http://zh.youdict.com/" target="_blank">汉语词典</a></li>
+            <!--
+            <li><a href="/read" target="_blank">阅读</a></li>
+            <li><a href="/game" target="_blank">游戏</a></li>
+            <li><a href="/site" target="_blank">网址导航</a></li>
+            <li><a href="/news" target="_blank">新闻</a></li>
+            -->
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 hidden-xs" id="logo">
+            <a href="/"><img src="/images/logo.png" class="img-responsive"></a>
+        </div>
+        <div class="col-sm-9 col-md-7 search">
+            <form method="get" action="/" id="yd-search" target="_blank">
+                <div class="input-group">
+                    <input type="text" class="form-control" onmouseover="this.select();" onfocus="this.select();" autocomplete="off" name="word" id="word" value="">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                  </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<hr>
+
+<div class="container" style="margin-top: 20px;margin-bottom: 20px; font-size: 16px;">
+    <div class="yd-item">
+        考试词汇 &nbsp;&nbsp;&nbsp;<a class="ciku-current" href="/ciku/id_0_0_0_0_0.html">全部</a><a href="/ciku/id_1_0_0_0_0.html">英语四级词汇</a><a href="/ciku/id_2_0_0_0_0.html">英语六级词汇</a><a href="/ciku/id_3_0_0_0_0.html">英专四级词汇</a><a href="/ciku/id_4_0_0_0_0.html">英专八级词汇</a><a href="/ciku/id_5_0_0_0_0.html">考研词汇</a><a href="/ciku/id_6_0_0_0_0.html">托福词汇</a><a href="/ciku/id_7_0_0_0_0.html">雅思词汇</a><a href="/ciku/id_8_0_0_0_0.html">GRE词汇</a>    </div>
+    <div class="yd-item">
+        使用频率 &nbsp;&nbsp;&nbsp;<a class="ciku-current" href="/ciku/id_0_0_0_0_0.html">全部</a><a href="/ciku/id_0_1_0_0_0.html">高频词</a><a href="/ciku/id_0_2_0_0_0.html">中高频词</a><a href="/ciku/id_0_3_0_0_0.html">中频词</a><a href="/ciku/id_0_4_0_0_0.html">中低频词</a><a href="/ciku/id_0_5_0_0_0.html">低频词</a>    </div>
+    <div class="yd-item">
+        星级词汇 &nbsp;&nbsp;&nbsp;<a class="ciku-current" href="/ciku/id_0_0_0_0_0.html">全部</a><a href="/ciku/id_0_0_1_0_0.html">基本词汇</a><a href="/ciku/id_0_0_2_0_0.html">核心词汇</a><a href="/ciku/id_0_0_3_0_0.html">常用词汇</a><a href="/ciku/id_0_0_4_0_0.html">扩展词汇</a><a href="/ciku/id_0_0_5_0_0.html">畅通词汇</a>    </div>
+    <div class="yd-item">
+        分类标签 &nbsp;&nbsp;&nbsp;<a class="ciku-current" href="/ciku/id_0_0_0_0_0.html">全部</a><a href="/ciku/id_0_0_0_1_0.html">水果</a><a href="/ciku/id_0_0_0_2_0.html">蔬菜</a><a href="/ciku/id_0_0_0_3_0.html">花</a><a href="/ciku/id_0_0_0_4_0.html">哺乳动物</a><a href="/ciku/id_0_0_0_5_0.html">家畜家禽</a><a href="/ciku/id_0_0_0_6_0.html">爬行两栖</a><a href="/ciku/id_0_0_0_7_0.html">禽鸟</a><a href="/ciku/id_0_0_0_8_0.html">鱼类</a><a href="/ciku/id_0_0_0_9_0.html">壳类动物</a><a href="/ciku/id_0_0_0_10_0.html">昆虫</a><a href="/ciku/id_0_0_0_11_0.html">树</a>    </div>
+    <br>
+    <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allure1.jpg" alt="allure">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allure">allure</a></h3>
+                        <p>
+vt. 引诱，诱惑；吸引
+n. 诱惑力
+vi. 诱人，吸引人
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allurement1.jpg" alt="allurement">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allurement">allurement</a></h3>
+                        <p>
+n. 诱惑；诱惑物
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/alluring1.jpg" alt="alluring">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/alluring">alluring</a></h3>
+                        <p>
+adj. 诱惑的，诱人的；迷人的，吸引人的
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allusion1.jpg" alt="allusion">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allusion">allusion</a> <span class="yd-kw-suffix">[英语单词大全]</span></h3>
+                        <p>
+n. 暗示；提及
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allusive1.jpg" alt="allusive">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allusive">allusive</a></h3>
+                        <p>
+adj. 暗指的；引用典故的
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/alluvial1.jpg" alt="alluvial">
+                    <div class="caption">
+                        <h3      <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/alligator">alligator</a></h3>
+                        <p>
+n. 短吻鳄（产于美国及中国）；短吻鳄皮革；鳄口式工具
+vi. 皱裂；裂开
+adj. 鳄鱼般的；鳄鱼皮革的；鳄鱼皮纹的
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/alliterate1.jpg" alt="alliterate">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/alliterate">alliterate</a></h3>
+                        <p>
+vi. 押头韵；用头韵体作
+vt. 押头韵
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/alliteration1.jpg" alt="alliteration">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/alliteration">alliteration</a> <span class="yd-kw-suffix">[英语单词大全]</span></h3>
+                        <p>
+n. 头韵；同音韵错误症
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allocate1.jpg" alt="allocate">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allocate">allocate</a></h3>
+                        <p>
+vt. 分配；拨出；使坐落于
+vi. 分配；指定
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allocation1.jpg" alt="allocation">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allocation">allocation</a></h3>
+                        <p>
+n. 分配，配置；安置
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allocator1.jpg" alt="allocator">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allocator">allocator</a></h3>
+                        <p>
+n. 分配算符
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allopathy1.jpg" alt="allopathy">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allopathy">allopathy</a> <span class="yd-kw-suffix">[英语单词大全]</span></h3>
+                        <p>
+n. [临床] 对抗疗法
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allot1.jpg" alt="allot">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allot">allot</a></h3>
+                        <p>
+vt. 分配；拨给；分派
+n. (Allot)人名；(英)阿洛特；(西)阿略特；(法)阿洛
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allotment1.jpg" alt="allotment">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allotment">allotment</a></h3>
+                        <p>
+n. 分配；分配物；养家费；命运
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allow1.jpg" alt="allow">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allow">allow</a></h3>
+                        <p>
+vt. 允许；给予；认可
+vi. 容许；考虑
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allowable1.jpg" alt="allowable">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allowable">allowable</a> <span class="yd-kw-suffix">[英语单词大全]</span></h3>
+                        <p>
+adj. 许可的；正当的；可承认的；可获宽免
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allowance1.jpg" alt="allowance">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allowance">allowance</a></h3>
+                        <p>
+n. 津贴，零用钱；允许；限额
+vt. 定量供应
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allowed1.jpg" alt="allowed">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allowed">allowed</a></h3>
+                        <p>
+adj. 允许，容许的
+v. 允许；认可（allow的过去分词）
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/alloy1.jpg" alt="alloy">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/alloy">alloy</a></h3>
+                        <p>
+vt. 使成合金；使减低成色
+n. 合金
+vi. 易于铸成合金
+n. (Alloy)人名；(英)阿洛伊
+</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 350px; text-overflow: ellipsis; overflow: hidden;">
+                    <img style="height: 200px;" width="100%" src="/images/words/allude1.jpg" alt="allude">
+                    <div class="caption">
+                        <h3 style="margin-top: 10px;"><a style="color:#333;" target="_blank" href="/w/allude">allude</a> <span class="yd-kw-suffix">[英语单词大全]</span></h3>
+                        <p>
+vi. 暗指，转弯抹角地说到；略为提及，顺便提到
+</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+<div class="container yd-tags" style="margin-top: 20px;margin-bottom: 30px; font-size: 16px;text-align: center;">
+    <a href="/ciku/id_0_0_0_0_0.html">首页</a><a href="/ciku/id_0_0_0_0_32.html">上一页</a><a href="/ciku/id_0_0_0_0_29.html">30</a><a href="/ciku/id_0_0_0_0_30.html">31</a><a href="/ciku/id_0_0_0_0_31.html">32</a><a href="/ciku/id_0_0_0_0_32.html">33</a><a style="background-color:#666;color:#fff;" href="/ciku/id_0_0_0_0_33.html">34</a><a href="/ciku/id_0_0_0_0_34.html">35</a><a href="/ciku/id_0_0_0_0_35.html">36</a><a href="/ciku/id_0_0_0_0_36.html">37</a><a href="/ciku/id_0_0_0_0_37.html">38</a><a href="/ciku/id_0_0_0_0_38.html">39</a><a href="/ciku/id_0_0_0_0_34.html">下一页</a><a href="/ciku/id_0_0_0_0_2238.html">尾页</a></div>
+<footer>
+    <div id="copyright">
+        <p>Copyright &copy; 2015 YouDict.com All Rights Reserved. 当前版本: 15.06.11<br>
+            <a href="/ciyuan/list/b" target="_blank" title="英语词源字典">词源字典</a>
+            <a href="/root/list/b" target="_blank" title="英语词根字典">词根字典</a>
+            <a href="/ciku" target="_blank" title="英语单词大全">英语单词大全</a>
+            <a href="/root/root.php" target="_blank" title="英语词根表">英语词根表</a>
+            <a href="/root/list/c" target="_blank" title="词根词缀大全">词根词缀</a>
+            <a href="/map/index.html" target="_blank">网站地图</a><br>
+            <a href="http://www.miibeian.gov.cn" target="_blank">蜀ICP备12020342号-1</a>
+        </p>
+    </div>
+</footer>
+<script src="/lib/jquery/jquery-2.1.4.min.js"></script>
+<script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="/js/prompt.js"></script>
+<div style="display: none;">
+    <script src="http://s4.cnzz.com/stat.php?id=1254976343&web_id=1254976343" language="JavaScript"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?88704587328aa1eb2cae7909f17b3601";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+</body>
+</html><br>
+            <a href="/ciyuan/list/b" target="_blank" title="英语词源字典">词源字典</a>
+            <a href="/root/list/b" target="_blank" title="英语词根字典">词根字典</a>
+            <a href="/ciku" target="_blank" title="英语单词大全">英语单词大全</a>
+            <a href="/root/root.php" target="_blank" title="英语词根表">英语词根表</a>
+            <a href="/root/list/c" target="_blank" title="词根词缀大全">词根词缀</a>
+            <a href="/map/index.html" target="_blank">网站地图</a><br>
+            <a href="http://www.miibeian.gov.cn" target="_blank">蜀ICP备12020342号-1</a>
+        </p>
+    </div>
+</footer>
+<script src="/lib/jquery/jquery-2.1.4.min.js"></script>
+<script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="/js/prompt.js"></script>
+<div style="display: none;">
+    <script src="http://s4.cnzz.com/stat.php?id=1254976343&web_id=1254976343" language="JavaScript"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?88704587328aa1eb2cae7909f17b3601";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+</body>
+</html>
+0
+
+       })();
+    </script>
+</div>
+</body>
+</html>
+0
+
+    hm.src = "//hm.baidu.com/hm.js?88704587328aa1eb2cae7909f17b3601";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+</body>
+</html>
+0
+
+ent.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+</body>
+</html>
+0
+
+")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+</body>
+</html>
+0
+

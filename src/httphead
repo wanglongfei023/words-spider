@@ -1,0 +1,7 @@
+"GET URL HTTP/1.1\r\n"\
+"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,;q=0.8\r\n"\
+"Accept-language: zh-cn\r\n"\
+"User-Agent: Mozilla/5.0 (compatible;Windows NT 6.1; WOW64;Trident/6.0;MSIE 9.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.27 Safari/537.36\r\n"\
+"Host: 域名\r\n"\
+"Connection: close\r\n"\
+"\r\n"\
